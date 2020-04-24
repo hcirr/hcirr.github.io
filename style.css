@@ -1,0 +1,134 @@
+/*Selector{
+    Property value;
+
+} */
+.nav-link{
+    color: white;
+}
+.home{
+    background: url(backgroundimage.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.recipes {
+
+    background: url(coff.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+h3 {
+    text-align: right;
+
+    font-family: 'Poiret One', cursive;
+    font-size: 380%;
+    color: white;
+}
+h2  {
+    font-family: 'Poiret One', cursive;
+    font-size: 380%;
+    color:#515151;
+    text-align: center;
+    border: 5px outset white;
+    cursor: pointer;
+    border-radius: 20px
+
+}
+
+
+p{
+    font-family: 'Poiret One', strong;
+    color: gray;
+}
+
+}
+li{
+    color: white;
+    list-style: none;
+    display: inline-block
+
+}
+
+.boxmode , .boxmodel-carousel{
+    text-align: left;
+    color:#515151;
+    border: 5px double white;
+    display: inline-block;
+    padding: 20px 20px 10px 10px;
+    margin: 20px;
+
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.boxmodel:hover{
+
+    transform: scale(1.05);
+
+}
+.btn-primary {
+
+    background-color: #515151;
+
+
+}
+img {
+    border-radius: 20px;
+
+}
+
+.title {
+
+    font-size: 130%;
+    padding: 20px 40px 70px 20px;
+}
+
+.card{
+
+    background-color: rgba(255,255,255,.9);
+    border-radius: 25px;
+
+}
+
+.card-body{
+
+    padding-top: 0px
+
+}
+
+.card-text{
+
+
+}
+
+.coral {
+
+    border: ridge;
+
+
+
+}
+
+('.carousel').carousel({
+  interval: 2000
+})
+
+
+
+
+
+.blog_car_text{
+
+    font-family: 'Poiret One', strong;
+    font-size: 250%;
+
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: inset;
+
+
+}
