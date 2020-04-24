@@ -25,10 +25,11 @@ h3 {
     color: white;
 }
 h2  {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Grand Hotel', cursive;
     font-size: 380%;
     color:#515151;
     text-align: center;
+    padding: 0px 275px 0px 0px;
 
 
     cursor: pointer;
@@ -129,6 +130,13 @@ img {
     padding-bottom: 20px;
     background-color: white;
     border-radius: 20px;
+    border: inset;
+
+
+}
+
+.button {
+
     border: inset;
 
 
